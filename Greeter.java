@@ -23,5 +23,6 @@ public class Greeter {
     int lengthOfArgs = args.length;
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
+    System.out.println(greeter.sayHello());
   }
 }
